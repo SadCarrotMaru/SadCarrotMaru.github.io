@@ -1,0 +1,408 @@
+
+
+@media only screen and (max-width: 600px) {
+   #wrapper
+   {
+    display:grid;
+    margin-top: 3em;
+    height: calc(100vh + 50em);
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 50% 30%;
+   }
+  }
+ 
+ /* Medium screens (tablets) */
+ @media only screen and (min-width: 601px) and (max-width: 900px) {
+  #wrapper
+  {
+    display:grid;
+    margin-top: 3em;
+    height: calc(100vh + 50em);
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 60% 20%;
+  }
+
+}
+ 
+ /* Large screens (desktops) */
+ @media only screen and (min-width: 901px) {
+  #wrapper
+  {
+    display:grid;
+    margin-top: 3em;
+    height: calc(100vh + 50em);
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 60% 20%;
+  }
+ }
+ 
+
+ 
+body {
+  background-color: #c4dbe4;
+}
+
+h1{
+  color: #130258;
+  text-shadow: 0.01em 0.01em 0.1em #0999d2;
+}
+ 
+header {
+   position:fixed; 
+   top:0; 
+   left:0; 
+   width:100%; 
+   height:3em; 
+   background-color:#0999d2; 
+   color:white; 
+   display:flex; 
+   align-items:center; 
+   margin-bottom: 0px;
+}
+
+
+#search-container {
+   margin:auto; 
+}
+
+#search-container input[type=text] {
+   padding:0.3em; 
+   border:none; 
+}
+
+#search-container button {
+   padding:0.3em; 
+   border:none; 
+   cursor:pointer;
+}
+
+#logo {
+   height:3em;
+   margin-left: 0em; 
+}
+
+#right-menu { 
+  width:100%; 
+  height:calc(100%); 
+  background-color:#b7d5eb;  
+}
+
+.friend-suggestion {
+  display:flex; 
+  align-items:center; 
+}
+
+.friend-suggestion img {
+  border-radius:50%; 
+  width:50px; 
+}
+
+.friend-suggestion span {
+  margin-left:10px; 
+} 
+
+.post-container {
+   max-width: 60em;
+ }
+
+.post {
+   margin-bottom: 20px;
+   padding: 20px;
+   border: 1px solid #ba1515;
+   border-radius: 10px;
+   overflow: hidden;
+   background-color: #ffffff;
+ }
+ 
+ .post-header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 0.1em;
+ }
+ 
+ .post-header img {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   margin-right: 10px;
+ }
+ 
+ .post-header span {
+   font-weight: bold;
+ }
+ 
+ .post-content p {
+   margin: 0;
+ }
+ 
+ .post-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 10px;
+ }
+ 
+ .post-footer-left img {
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+   cursor: pointer;
+ }
+ 
+ .post-footer-left img:last-child {
+   margin-right: 0;
+ }
+
+ #centered-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#centered-section img {
+  max-width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.p-menu1{
+   height: 100%;
+}
+
+
+
+
+/* Hamburger */
+
+#toggle1 {
+  display: none;
+}
+
+#toggle1:checked ~ .menu1 {
+  height: calc(100vh - 3em) ;
+}
+
+#loading-screen
+{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:100;
+}
+
+/* Menu */
+.menu1 {
+  margin-top: 0px;
+  width: 100%;
+  background-color: #02173F;
+  margin: 0;
+  display: -ms-grid;
+  display: grid;
+  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-row-gap: 2em;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  width: auto;
+  text-align: center;
+  height: 0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  z-index: 120;
+}
+
+.menu1 a:first-child {
+  margin-top: 40px;
+}
+
+.menu1 a:last-child {
+  margin-bottom: 40px;
+}
+
+.link1 {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  font: 700 20px 'Oswald', sans-serif;
+}
+
+.link1:hover {
+  background-color: #fff;
+  color: rgb(61, 61, 61);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.post-header span::after {
+  content: url(images/catto.gif);
+}
+
+.post-content img
+{
+  width: 30%;
+  height: 20%;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment-header img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-header span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.comment-content {
+  margin-left: 40px;
+}
+
+.comment-content p {
+  font-size: 16px;
+}
+
+.comment-content img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  position:static;
+  bottom: 0;
+  background-color: #02173F;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  margin-bottom: 0em;
+  /* always on bottom */
+}
+
+/* javascript stuff :D */
+.post-button {
+  width: 3em; 
+  height: 3em; 
+  border-radius: 50%; 
+  cursor: pointer;
+  position: fixed;
+  top: 6%;
+  left: 50%;
+  z-index: 9998;
+}
+
+
+#post-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#post-popup .popup-content {
+  background-color: #fff;
+  width: 400px;
+  max-width: 90%;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#post-popup .popup-content h2 {
+  margin-top: 0;
+}
+
+#post-popup .popup-content label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#post-popup .popup-content textarea {
+  width: 100%;
+  height: 100px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+#post-popup .popup-content input[type="file"] {
+  margin-bottom: 10px;
+}
+
+#post-popup .popup-content button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#close-popup-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#focused-post {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+#focused-post #focused-post-content {
+  background-color: #ffffff;
+  width: 70%;
+  max-width: 90%;
+  margin: 5em auto;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+#focused-post #close-popup-button2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: #ef0303;
+  cursor: pointer;
+}

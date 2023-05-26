@@ -1,0 +1,832 @@
+[
+    {
+      "username": "Gică",
+      "profileImg": "USERS/user_pfp(7).jpg",
+      "content": "Just woke up from my nap and feeling purrfectly refreshed! Time to explore the house and see what trouble I can get into. #catlife #adventures #nappingpro",
+      "image": null
+    },
+    {
+      "username": "Vericu'",
+      "profileImg": "USERS/user_pfp(3).jpg",
+      "content": "I simply cannot believe Marc just got himself a tank.",
+      "image": "USERS/user_pfp(16).jpg",
+      "comments": [
+        {
+          "username": "Marc",
+          "profileImg": "USERS/user_pfp(20).jpg",
+          "content": "Heheheheheheehehhe"
+        }
+      ]
+    },
+    {
+      "username": "Marcel",
+      "profileImg": "USERS/user_pfp(37).jpg",
+      "content": "me want me want I need them I want them aaaaaaaa",
+      "image": "images/toys.jpg",
+      "comments": [
+        {
+          "username": "Tom",
+          "profileImg": "Users/user_pfp(40).jpg",
+          "content": "They are great! Hope you can get one as soon as possible fren ❤️"
+        }
+      ]
+    },
+    {
+        "username": "Fluffy",
+        "profileImg": "USERS/user_pfp(12).jpg",
+        "content": "Just found a cozy spot by the window. Sunbathing time! #sunshine #relaxation",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "That looks purrfectly relaxing, Fluffy! Enjoy the sunshine! ☀️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Caught a mouse today and left it as a present for my human. They seem thrilled! #hunter #proud",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Great job, Whiskers! I bet your human loves your hunting skills. 🐭🐾"
+        },
+        {
+        "username": "Fluffy",
+        "profileImg": "USERS/user_pfp(12).jpg",
+        "content": "You're such a skilled hunter, Whiskers! Keep up the good work. 😺👍"
+        }
+        ]
+        },
+        
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Meow! Just got a new scratching post. It's purrfect for keeping my claws in top shape. #catlife #claws",
+        "image": null,
+        "comments": [
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "I've been eyeing a scratching post too, Mittens. Which one did you get? 😻"
+        }
+        ]
+        },
+        
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "I climbed the tallest tree in the backyard today. The view from up here is amazing! #explorer #adventures",
+        "image": null,
+        "comments": [
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Wow, Luna! You're the queen of heights. Be careful up there! 🌳😸"
+        },
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "I'm too afraid of heights, Luna. I'll stick to ground-level adventures! 😼"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Does anyone else have an insatiable craving for tuna? It's the best thing ever! #tunaholic #foodie",
+        "image": null,
+        "comments": [
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Oliver, you read my mind! Tuna is a delicacy we can't resist. 😋🐟"
+        },
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Count me in, Oliver! Tuna is the ultimate treat. Meowlicious! 🐾❤️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "I've been practicing my acrobatic skills. Soon, I'll be able to do flips in mid-air! #acrocat #flexible",
+        "image": null,
+        "comments": [
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Leo, I can't wait to see your gravity-defying moves! Keep us updated. 🐾🤸‍♂️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "My human bought me a new feather wand toy. It's the best thing ever! #playtime #entertainment",
+        "image": null,
+        "comments": [
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Feather wands are so much fun, Max! Enjoy your playtime to the fullest. 😺🪶"
+        }
+        ]
+        },
+        
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Just discovered a secret stash of treats. Jackpot! 😼🍗 #treats #luckyme",
+        "image": null,
+        "comments": [
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Bella, you lucky cat! Treats are the best surprises. Enjoy every bite! 🐾❤️"
+        },
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Bella, remember to share some treats with your feline friends too! 😸🍗"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oscar",
+        "profileImg": "USERS/user_pfp(37).jpg",
+        "content": "I'm planning a midnight adventure. Who wants to join me? #nightowl #explorer",
+        "image": null,
+        "comments": [
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "Count me in, Oscar! Midnight explorations are the best. Let's go on a grand adventure! 🌙🐾"
+        },
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "I'm always up for some nocturnal adventures, Oscar. Let's make it unforgettable! 🌃😺"
+        }
+        ]
+        },
+        
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "Just had a play session with a ball of yarn. It's my favorite toy! #playtime #yarnlover",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Smokey, yarn is the best! The way it unravels is so satisfying. Enjoy your playtime! 😸🧶"
+        }
+        ]
+        },
+        
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "Just had a staring contest with a squirrel. I think I won this time! #squirrelwatching #victory",
+        "image": null,
+        "comments": [
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "Nice one, Charlie! Squirrels never stand a chance against our intense focus. You're the champion! 👀🏆"
+        },
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "I need to take squirrel-watching lessons from you, Charlie. Teach me your secrets! 😺🐿️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Just had a luxurious grooming session. My fur is now impeccable! #flawless #grooming",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Lucy, you always look so elegant. Teach me your grooming secrets, please! 😻🧼"
+        }
+        ]
+        },
+        
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Today, I discovered a new hiding spot in the closet. No one can find me here! #hideandseek #secretspot",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Ginger, your hiding skills are on point! Can you give me a hint for my next hide-and-seek game? 😸🔍"
+        }
+        ]
+        },
+        
+        {
+        "username": "Milo",
+        "profileImg": "USERS/user_pfp(1).jpg",
+        "content": "Just had a nap in a sunbeam. It's like a warm, cozy blanket of light! #catnap #sunbeam",
+        "image": null,
+        "comments": [
+        {
+        "username": "Fluffy",
+        "profileImg": "USERS/user_pfp(12).jpg",
+        "content": "Milo, sunbeams are pure bliss. I can almost feel the warmth through your words. 😺☀️"
+        },
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Napping in a sunbeam is the epitome of relaxation, Milo. Enjoy your cozy moments! 😴🌞"
+        }
+        ]
+        },
+        
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "I'm plotting a grand scheme to steal treats from the top shelf. Stay tuned for updates! #mischief #masterplan",
+        "image": null,
+        "comments": [
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Loki, count me in for the treat heist! We'll make it an epic adventure. 🐾🍗"
+        },
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "I'm curious to see your masterplan, Loki. Let's hope it involves lots of delicious treats! 😼🥩"
+        }
+        ]
+        },
+        
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Just discovered a new toy mouse under the couch. It's playtime! #mousehunter #toys",
+        "image": null,
+        "comments": [
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Mittens, toy mice are the best! Have a blast during your play session. 🐁😸"
+        }
+        ]
+        },
+        
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Today, I claimed the highest spot on the bookshelf. King of the heights! #elevation #majestic",
+        "image": null,
+        "comments": [
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Whiskers, you're the true ruler of high places. Don't forget to enjoy the view from up there! 👑🌟"
+        },
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "I admire your bravery, Whiskers. Heights make me a bit nervous, but you own it! 😺🌄"
+        }
+        ]
+        },
+        
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Just had a fancy feast for dinner. It's like dining in a five-star restaurant! #gourmet #foodlover",
+        "image": null,
+        "comments": [
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Leo, I'm a fan of fancy feasts too! Indulge in the culinary delights. Bon appétit! 🍽️😻"
+        },
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Leo, you have the most refined taste in food. Enjoy every bite of your gourmet dinner! 😸🍴"
+        }
+        ]
+        },
+        
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Just had an intense play session with a laser pointer. The red dot always keeps me on my toes! #chasethelight #laserfun",
+        "image": null,
+        "comments": [
+        {
+        "username": "Milo",
+        "profileImg": "USERS/user_pfp(1).jpg",
+        "content": "Max, the red dot is an elusive opponent. Keep up the good work in your chase! 🐾🔴"
+        }
+        ]
+        },
+        
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Just claimed my favorite spot on the windowsill. Watching birds is so entertaining! #birdwatching #windowview",
+        "image": null,
+        "comments": [
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Luna, birdwatching is a captivating pastime. Share the excitement with us! 🐦😺"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "I've been sharpening my claws on the scratching post. They're like razor-sharp weapons now! #clawsout #sharpie",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Oliver, your claws are fearsome! Don't forget to show them off to intruders. 😼🔪"
+        },
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Oliver, your claws could rival the sharpest knives. Stay fierce! 🐾⚔️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "I just took a luxurious nap on a pile of fluffy blankets. So cozy! 😴🛌 #catnap #comfy",
+        "image": null,
+        "comments": [
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Bella, you always find the coziest spots for your naps. Sweet dreams! 🐾💤"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oscar",
+        "profileImg": "USERS/user_pfp(37).jpg",
+        "content": "I just caught a toy mouse in mid-air. I'm a skilled hunter! #mousehunter #quickpaws",
+        "image": null,
+        "comments": [
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Oscar, your hunting skills are unmatched. Keep honing your feline instincts! 🐾🎯"
+        }
+        ]
+        },
+        
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "I discovered a new hiding spot inside a cardboard box. It's my secret sanctuary! #hideandseek #boxfort",
+        "image": null,
+        "comments": [
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Smokey, cardboard boxes are magical hideaways. Enjoy your secret sanctuary! 📦😸"
+        },
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "I love hiding in cardboard boxes too, Smokey. It's our own little world inside! 🌍🐾"
+        }
+        ]
+        },
+        
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "I just had a thrilling chase with a piece of string. It's the ultimate game! #playtime #stringfun",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Charlie, string chasing is the best! Keep the fun going with your boundless energy. 🐱🧵"
+        },
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "Charlie, you're a master of the string game. Show us some of your impressive acrobatics! 🐾🎪"
+        }
+        ]
+        },
+        
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "I just had a feast of tuna. It's like heaven in a can! #tunaaddict #yum",
+        "image": null,
+        "comments": [
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Lucy, I share your love for tuna. It's a delicacy that can't be matched! 🐟😻"
+        },
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Lucy, you have exquisite taste. Tuna is the king of flavors! 🐾👑"
+        }
+        ]
+        },
+        
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "I just discovered a new sunbeam in the living room. Basking in its warmth is pure bliss! #sunnydays #sunshine",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Ginger, sunbeams are like rays of happiness. Soak up the warmth and enjoy your sunny moments! ☀️😸"
+        }
+        ]
+        },
+        
+        {
+        "username": "Milo",
+        "profileImg": "USERS/user_pfp(1).jpg",
+        "content": "I just had a friendly faceoff with the neighbor's dog through the window. It's our daily ritual! #dogvsCat #rivalry",
+        "image": null,
+        "comments": [
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Milo, the dog-cat rivalry is legendary. Keep up the playful rivalry and defend our feline honor! 🐾🐕"
+        }
+        ]
+        },
+        
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "Just scaled the tallest bookshelf in the house. I'm the king of vertical exploration! #climbingpro #heights",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Loki, your climbing skills are awe-inspiring. Reach for the highest peaks, my friend! 🐾⛰️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Just sharpened my claws on the brand new scratching post. It's purrfectly satisfying! #clawsout #sharpie",
+        "image": null,
+        "comments": [
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Oliver, your claws are a force to be reckoned with. Keep them sharp and ready for action! 🐾🔪"
+        },
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Oliver, you have the sharpest claws in the neighborhood. Don't hesitate to show them off! 😼⚔️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Just found a cozy spot on the couch. Time for some serious catnapping! 😺💤 #catlife #cozy",
+        "image": null,
+        "comments": [
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Bella, enjoy your well-deserved catnap. May your dreams be filled with mice and treats! 🐭🌙"
+        }
+        ]
+        },
+        
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Just had a thrilling chase with a feather toy. My agility knows no bounds! #felineacrobat #playtime",
+        "image": null,
+        "comments": [
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "Mittens, your acrobatic skills are truly impressive. Keep the playfulness alive! 🐱🤸"
+        }
+        ]
+        },
+        
+        {
+        "username": "Whiskers",
+        "profileImg": "USERS/user_pfp(23).jpg",
+        "content": "Just claimed the sunny spot on the windowsill. It's my personal paradise! ☀️🌿 #sunlover #cozy",
+        "image": null,
+        "comments": [
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Whiskers, you're the king of sunlit spots. Bask in the warmth and enjoy the view! 🌞🐾"
+        },
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Whiskers, you know how to find the coziest nooks. Enjoy your sun-drenched sanctuary! 😸🌅"
+        }
+        ]
+        },
+        
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Just finished a gourmet meal. Dining like a king is a true delight! 🍽️😺 #gourmetcat #feasting",
+        "image": null,
+        "comments": [
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Leo, your culinary adventures are enviable. Bon appétit, dear friend! 🍗🍖"
+        }
+        ]
+        },
+        
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "Just discovered a new hiding spot under the bed. It's my secret fortress! 🛌🙀 #hideandseek #fortress",
+        "image": null,
+        "comments": [
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Smokey, the under-bed fortress is the ultimate hiding spot. May it protect you from all intruders! 🏰😼"
+        }
+        ]
+        },
+        
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Just had a playful wrestling match with my favorite catnip toy. Victory is mine! #catnipmania #playtime",
+        "image": null,
+        "comments": [
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "Max, your wrestling skills are unmatched. Keep the spirit of play alive! 🐾🤼"
+        },
+        {
+        "username": "Milo",
+        "profileImg": "USERS/user_pfp(1).jpg",
+        "content": "Max, I challenge you to a wrestling match! Let's see who's the champion of the living room! 🏆😼"
+        }
+        ]
+        },
+        
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Just discovered a new cardboard castle. It's my royal abode! 🏰😻 #catcastle #cardboardfun",
+        "image": null,
+        "comments": [
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Luna, your cardboard castle is fit for a queen. Long live the feline monarchy! 👑📦"
+        },
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Luna, your royal abode is the envy of all cats. Enjoy your regal adventures! 🐾🏰"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oscar",
+        "profileImg": "USERS/user_pfp(37).jpg",
+        "content": "Just had a daring jump from the highest bookshelf. I'm a feline daredevil! #catstuntman #adrenaline",
+        "image": null,
+        "comments": [
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Oscar, your fearless jumps are legendary. Keep pushing the boundaries of feline acrobatics! 🐾🚀"
+        }
+        ]
+        },
+
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Just had an intense staring contest with a bird outside the window. I almost had it! #birdwatching #intense",
+        "image": null,
+        "comments": [
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "Mittens, your focus and determination are commendable. Keep those birds on their toes! 🐦👀"
+        },
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Mittens, one day you'll outwit those feathered creatures. Keep honing your stare! 👁️🕊️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Just received a special treat from my hooman. Pure bliss in every bite! 😻🍗 #spoiled",
+        "image": null,
+        "comments": [
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Bella, savor the indulgence. Our hoomans know just how to make us feel loved! ❤️🐾"
+        }
+        ]
+        },
+        
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Just claimed the sunniest spot on the porch. Soaking up the rays like a true sun worshipper! ☀️😺 #sunnydays #sunbathing",
+        "image": null,
+        "comments": [
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Max, you've mastered the art of sunbathing. Enjoy your sunny moments and let the warmth fill your heart! 🌞❤️"
+        }
+        ]
+        },
+        
+        {
+        "username": "Loki",
+        "profileImg": "USERS/user_pfp(10).jpg",
+        "content": "Just discovered a new cardboard box. It's a cat's dream come true! 📦😸 #boxfort #adventure",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Loki, boxes are the gateway to endless adventures. May your cardboard escapades be legendary! 📦🐾"
+        },
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Loki, you've discovered a portal to another dimension. Embrace the wonders that lie within! ✨🐱"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oscar",
+        "profileImg": "USERS/user_pfp(37).jpg",
+        "content": "Just had a thrilling game of hide and seek with my hooman. I'm the master of stealth! 🙈🐾 #hideandseek #stealthmode",
+        "image": null,
+        "comments": [
+        {
+        "username": "Leo",
+        "profileImg": "USERS/user_pfp(8).jpg",
+        "content": "Oscar, your hiding skills are legendary. May you always elude your hooman's keen eyes! 🕵️‍♂️😼"
+        },
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "Oscar, teach me your stealthy ways! I'm still a rookie at hide and seek. 🐾🙀"
+        }
+        ]
+        },
+        
+        {
+        "username": "Lucy",
+        "profileImg": "USERS/user_pfp(26).jpg",
+        "content": "Just had a delightful grooming session. My fur is shiny and oh-so-soft! 💅✨ #groomingday #fluffy",
+        "image": null,
+        "comments": [
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Lucy, your grooming routine is on point. Shine on, you glamorous feline! ✨💖"
+        }
+        ]
+        },
+        
+        {
+        "username": "Tom",
+        "profileImg": "USERS/user_pfp(40).jpg",
+        "content": "Just got a new toy mouse. It's time for a full-scale hunting simulation! 🐭🎯 #huntingmode #playtime",
+        "image": null,
+        "comments": [
+        {
+        "username": "Marcel",
+        "profileImg": "USERS/user_pfp(37).jpg",
+        "content": "Tom, may your hunting adventures be epic! Catch that toy mouse and show it who's boss! 🐾🏹"
+        },
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Tom, let the thrill of the hunt fuel your feline instincts. Unleash your inner predator! 🐅🌟"
+        }
+        ]
+        },
+        
+        {
+        "username": "Charlie",
+        "profileImg": "USERS/user_pfp(15).jpg",
+        "content": "Just had a playful chase with my own tail. Round and round we go! 🌀😹 #tailchase #playtime",
+        "image": null,
+        "comments": [
+        {
+        "username": "Mittens",
+        "profileImg": "USERS/user_pfp(6).jpg",
+        "content": "Charlie, you've discovered the ultimate game. Keep chasing that elusive tail! Round and round we go! 🐾💫"
+        }
+        ]
+        },
+        
+        {
+        "username": "Smokey",
+        "profileImg": "USERS/user_pfp(4).jpg",
+        "content": "Just claimed the comfiest spot on the hooman's bed. They can't resist my purr-suasion! 😸🛏️ #catnap #spoiled",
+        "image": null,
+        "comments": [
+        {
+        "username": "Ginger",
+        "profileImg": "USERS/user_pfp(5).jpg",
+        "content": "Smokey, you've mastered the art of persuasion. Enjoy your regal slumber on the hooman's bed! 👑💤"
+        }
+        ]
+        },
+        
+        {
+        "username": "Oliver",
+        "profileImg": "USERS/user_pfp(16).jpg",
+        "content": "Just discovered a hidden stash of treats. It's a meow-tastic surprise! 😻🍬 #treats #yum",
+        "image": null,
+        "comments": [
+        {
+        "username": "Bella",
+        "profileImg": "USERS/user_pfp(19).jpg",
+        "content": "Oliver, may your treat-filled discoveries bring joy to your taste buds. Indulge in those hidden delights! 🍭🎉"
+        }
+        ]
+        },
+        
+        {
+        "username": "Luna",
+        "profileImg": "USERS/user_pfp(31).jpg",
+        "content": "Just had a midnight zoomie session. The house is my racetrack! 🌙🏎️ #zoomies #midnightfun",
+        "image": null,
+        "comments": [
+        {
+        "username": "Max",
+        "profileImg": "USERS/user_pfp(42).jpg",
+        "content": "Luna, you've embraced the nocturnal spirit. Let the zoomies ignite your feline energy! 🌌⚡️"
+        }
+        ]
+        }
+  ]
+
+
+  

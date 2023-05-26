@@ -1,0 +1,18 @@
+<div class="post-container">
+        <div class="post">
+          <div class="post-header">
+          <img src="USERS/user_pfp (7).jpg" alt="Username">
+          <span>Gică</span>
+        </div>
+        <div class="post-content">
+          <p>Just woke up from my nap and feeling purrfectly refreshed! Time to explore the house and see what trouble I can get into. #catlife #adventures #nappingpro</p>
+        </div>
+        <div class="post-footer">
+          <div class="post-footer-left">
+          <img src="images/like.png" alt="Like" onclick="like()">
+          <img src="images/reply.png" alt="Reply" onclick="reply()">
+          <img src="images/share.png" alt="Share" onclick="share()">
+          <img src="images/bookmark.png" alt="Bookmark" onclick="bookmark()">
+          </div>
+        </div>
+</div>

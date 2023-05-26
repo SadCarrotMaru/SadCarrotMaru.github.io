@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Catbook</title>
+  <link rel="icon" type="ima  /jpg" href="images/icon.jpg">
+        <meta charset="utf-8">
+        <meta name="autor" content="Brabete Marius Stelian">
+        <meta name="description" content="A platform for cats' everyday life">
+        <meta name="keywords" content="Social, Cats, Interaction, Communication, life">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<iframe id="loading-screen" src="tigger.html"></iframe>
+
+<header>
+  <div class="p-menu1">
+    <nav id="navbar" class="navigation">
+      <input id="toggle1" type="checkbox">
+      <label class="hamburger1" for="toggle1">
+        <img src="images/logo.png" alt="Logo" id="logo">
+      </label>
+    
+      <nav class="menu1">
+        <a class="link1" href="home.html">Home</a>
+        <a class="link1" href="notifications.html">Notifications</a>
+        <a class="link1" href="messages.html">Messages</a>
+        <a class="link1" href="profile.html">Profile</a>
+        <a class="link1" href="settings.html">Settings</a>
+        <a class="lin1 kbutton-nav" href="">Contact</a>
+      </nav>
+  </nav>
+  </div>
+  <div id="search-container">
+    <input type="text" placeholder="Search...">
+    <button>🔍</button>
+  </div>
+  
+</header>
+
+<div id="wrapper">
+
+  <!--
+  meniul
+  -->
+  <div> 
+  </div>
+
+  <main>
+    <h1>Posts</h1>
+    <div id="focused-post">
+      <div id="focused-post-content">
+          <!-- postul pe care dau click :D-->
+      </div>
+      <button id="close-popup-button2">X</button>
+    </div> 
+    <button id="open-popup-button">:D</button>
+    <div id="post-popup">
+      <div class="popup-content">
+        <h2>Create a Post</h2>
+        <label for="post-content">Content:</label>
+        <textarea id="post-content" required></textarea>
+        <label for="post-image">Image:</label>
+        <input type="file" id="post-image">
+        <button id='submit' type="submit">Post :D</button>
+      </div>
+      <button id="close-popup-button">X</button>
+    </div>
+    <div class="post-container">
+    </div>
+  
+  </main>
+
+  <div id="right-menu">
+    <h3>Friend Suggestions:</h3>
+    <div class="friend-suggestion">
+      <img src="USERS/user_pfp(1).jpg" alt="Friend 1">
+      <span>Mitică</span>
+    </div>
+    <div class="friend-suggestion">
+      <img src="USERS/user_pfp(6).jpg" alt="Friend 2">
+      <span>Eleanor</span>
+    </div>
+    <div class="friend-suggestion">
+      <img src="USERS/user_pfp(5).jpg" alt="Friend 3">
+      <span>Martinel</span>
+    </div>
+    <h3>Trending:</h3>
+    <div class="post-container">
+    <!-- trending -->
+    </div>
+  </div>
+</div>
+<footer>
+  <p>© 2023 Catbook. All rights reserved. ᕙ(^▿^-ᕙ)</p>
+</footer>
+
+
+<script type="text/javascript" src="home.js"></script>
+<!--<script type="text/javascript" src="test.js"></script>-->
+</body>
+</html>

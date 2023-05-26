@@ -1,0 +1,36 @@
+.notification {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ba1515;
+    border-radius: 10px;
+    overflow: hidden;
+    width: calc(40vw - 1em);
+    background-color: #ffffff;
+}
+
+
+.notification img {
+    height:40px;
+    border-radius:50%;
+}
+
+.notification .username {
+    font-weight:bold;
+}
+
+.notification-buttons {
+    margin-left:auto;
+}
+
+.notification-buttons img {
+   height: 30px; 
+   cursor: pointer; 
+   margin-right:10px; 
+}
+
+.notification-content {
+   margin-left: 4em; 
+}

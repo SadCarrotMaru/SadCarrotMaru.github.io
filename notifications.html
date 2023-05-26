@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Catbook</title>
+  <link rel="icon" type="image/jpg" href="images/icon.jpg">
+        <meta charset="utf-8">
+        <meta name="autor" content="Brabete Marius Stelian">
+        <meta name="description" content="A platform for cats' everyday life">
+        <meta name="keywords" content="Social, Cats, Interaction, Communication, life">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="notifications.css">
+</head>
+<body>
+
+<header>
+  <div class="p-menu1">
+    <nav id="navbar" class="navigation">
+      <input id="toggle1" type="checkbox">
+      <label class="hamburger1" for="toggle1">
+        <img src="images/logo.png" alt="Logo" id="logo">
+      </label>
+    
+      <nav class="menu1">
+        <a class="link1" href="home.html">Home</a>
+        <a class="link1" href="santier.html">Explore</a>
+        <a class="link1" href="notifications.html">Notifications</a>
+        <a class="link1" href="santier.html">Messages</a>
+        <a class="link1" href="santier.html">Bookmarks</a>
+        <a class="link1" href="santier.html">Profile</a>
+        <a class="link1" href="santier.html">Settings</a>
+        <a class="lin1 kbutton-nav" href="">Contact</a>
+      </nav>
+  </nav>
+  </div>
+  <div id="search-container">
+    <input type="text" placeholder="Search...">
+    <button>🔍</button>
+  </div>
+  
+</header>
+
+<div id="wrapper">
+
+  <!--
+  meniul
+  -->
+  <div>
+  </div>
+
+  <main>
+    <h1>Notifications</h1>
+    Welcome to the Notifications page! Here you can see your recent notifications on Catbook.
+    
+    <div class="notification">
+        <div class="notification-header">
+            <img src="USERS/user_pfp(17).jpg" alt="User profile picture">
+            <span class="username">Fănel</span> liked your post:
+        </div>
+        <div class="notification-content">"Just had the best catnip ever! #catlife"</div>
+    </div>
+
+     <div class="notification">
+        <div class="notification-header">
+            <img src="USERS/user_pfp(5).jpg" alt="User profile picture">
+            <span class="username">Martinel</span> wants to be your furriend!
+        </div>
+        <div class="notification-content">Martinel's latest post: "Check out my new scratching post! #cattitude"</div>
+        <div class="notification-buttons">
+            <button>Accept</button>
+            <button>Decline</button>
+        </div>
+    </div>
+
+    <div class="notification">
+        <div class="notification-header">
+            <img src="USERS/user_pfp(42).jpg" alt="User profile picture">
+            <span class="username">Virvidian</span> shared your post:
+        </div>
+        <div class="notification-content">"Just had the best catnip ever! #catlife"</div>
+        <div class="notification-buttons">
+            <img src="images/like.png" alt="Like" onclick="like()">
+            <img src="images/reply.png" alt="Reply" onclick="reply()">
+        </div>
+    </div>
+
+    <div class="notification">
+        <div class="notification-header">
+            <img src="USERS/user_pfp(18).jpg" alt="User profile picture">
+            <span class="username">Nea' Vasile Lopătaru'</span> added a comment to your post:
+        </div>
+        <div class="notification-content">"Just had the best catnip ever! #catlife"<br>Comment: "I love catnip too! #catniplove"</div>
+        <div class="notification-buttons">
+            <img src="images/like.png" alt="Like" onclick="like()">
+            <img src="images/reply.png" alt="Reply" onclick="reply()">
+        </div>
+    </div>  
+
+  </main>
+  <div id="right-menu">
+    <h3>Trending:</h3>
+    <div class="post-container">
+      <div class="post">
+        <div class="post-header">
+        <img src="USERS/user_pfp(29).jpg" alt="Username">
+        <span>Oreo</span>
+        </div>
+        <div class="post-content">
+          <p>Stoopid hooman just got me the wrong food again...🙄🙄</p>
+        </div>
+        <div class="post-footer">
+          <div class="post-footer-left">
+          <img src="images/like.png" alt="Like" onclick="like()">
+          <img src="images/reply.png" alt="Reply" onclick="reply()">
+          <img src="images/share.png" alt="Share" onclick="share()">
+          <img src="images/bookmark.png" alt="Bookmark" onclick="bookmark()">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <p>© 2023 Catbook. All rights reserved. ᕙ(^▿^-ᕙ)</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Catbook</title>
+  <link rel="icon" type="image/jpg" href="images/icon.jpg"/>
+        <meta charset="utf-8">
+        <meta name="autor" content="Brabete Marius Stelian">
+        <meta name="description" content="A platform for cats' everyday life">
+        <meta name="keywords" content="Social, Cats, Interaction, Communication, life">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+
+  <header>
+    <div class="p-menu1">
+      <nav id="navbar" class="navigation">
+        <input id="toggle1" type="checkbox">
+        <label class="hamburger1" for="toggle1">
+          <img src="images/logo.png" alt="Logo" id="logo">
+        </label>
+      
+        <nav class="menu1">
+            <a class="link1" href="home.html">Home</a>
+            <a class="link1" href="santier.html">Explore</a>
+            <a class="link1" href="notifications.html">Notifications</a>
+            <a class="link1" href="santier.html">Messages</a>
+            <a class="link1" href="santier.html">Bookmarks</a>
+            <a class="link1" href="santier.html">Profile</a>
+            <a class="link1" href="santier.html">Settings</a>
+            <a class="lin1 kbutton-nav" href="">Contact</a>
+        </nav>
+    </nav>
+    </div>
+    <div id="search-container">
+      <input type="text" placeholder="Search...">
+      <button>🔍</button>
+    </div>
+    
+  </header>
+
+
+
+
+  <div id="profile-section">
+    <div id="login-form">
+      <label for="photo">Upload Photo:</label>
+      <input type="file" id="photo" accept="image/*">
+      <br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" minlength="8" maxlength="20" pattern="[A-Za-z0-9]+">
+      <br>
+      <button onclick="login()">Login</button>
+    </div>
+  
+    <div id="profile-container" style="display: none;">
+      <h1 id="profile-name"></h1>
+      <img id="profile-photo" width="100" height="100">
+      <div id="shared-posts">
+      </div>
+      <button onclick="logout()">Logout</button>
+      </div>
+  </div>
+
+
+<script type="text/javascript" src="profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Style pentru loading page (n-am voie javascript :( )-->
+        <style>
+            img {
+                 border-radius: 50%;    
+                }
+            .loader {
+              position: fixed;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              z-index: 9999;
+              animation: hide-loader 0s linear 4.5s forwards;
+            }
+            @keyframes hide-loader {
+              0% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+                visibility: hidden;
+              }
+            }
+            body {
+              visibility: visible;
+            }
+            body.loaded {
+              visibility: hidden;
+            }
+          </style>
+</head>
+<body>
+    <div class="loader">
+        <img src="file:///C:/Users/marut/Desktop/HTML%20-%20proiect/loading.gif" height="200" width="200" alt="Loading...">
+    </div>
+</body>
+</html>
