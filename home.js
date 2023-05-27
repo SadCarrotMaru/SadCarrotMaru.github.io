@@ -191,8 +191,8 @@ function createPostElement(post) {
     function closePostPopup() {
       const postPopup = document.getElementById('post-popup');
       postPopup.style.display = 'none';
-      document.getElementById('post-content').reset();
-      document.getElementById('post-image').reset();
+      document.getElementById('post-content').value="";
+      document.getElementById('post-image').value="";
     }
 
     function closePostPopup2() {
@@ -236,6 +236,10 @@ function createPostElement(post) {
       const postContainer = document.getElementsByClassName('post-container')[0];
       //postData.unshift(newPost);
       postContainer.insertBefore(createPostElement(newPost), postContainer.firstChild);
+      const sharedPosts = sessionStorage.getItem('sharedPosts');
+      const sharedPostsArray = sharedPosts ? JSON.parse(sharedPosts) : [];
+      sharedPostsArray.push(newPost);
+      sessionStorage.setItem('sharedPosts', JSON.stringify(sharedPostsArray));
       closePostPopup();
     }
     
@@ -307,7 +311,8 @@ function createPostElement(post) {
             </div>
           `;
     
-          commentSection.insertBefore(commentElement, commentForm);
+          if(localStorage.getItem("loggedIn")=="true") commentSection.insertBefore(commentElement, commentForm);
+              else alert("Login first");
           commentForm.remove();
     
           // Reset the comment input field

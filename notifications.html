@@ -26,14 +26,10 @@
         <a class="link1" href="messages.html">Messages</a>
         <a class="link1" href="profile.html">Profile</a>
         <a class="link1" href="settings.html">Settings</a>
-        <a class="lin1 kbutton-nav" href="">Contact</a>
       </nav>
   </nav>
   </div>
-  <div id="search-container">
-    <input type="text" placeholder="Search...">
-    <button>🔍</button>
-  </div>
+  
   
 </header>
 
@@ -48,7 +44,7 @@
   <main>
     <h1>Notifications</h1>
     Welcome to the Notifications page! Here you can see your recent notifications on Catbook.
-    
+    <!--
     <div class="notification">
         <div class="notification-header">
             <img src="USERS/user_pfp(17).jpg" alt="User profile picture">
@@ -68,7 +64,7 @@
             <button>Decline</button>
         </div>
     </div>
-
+    
     <div class="notification">
         <div class="notification-header">
             <img src="USERS/user_pfp(42).jpg" alt="User profile picture">
@@ -92,33 +88,17 @@
             <img src="images/reply.png" alt="Reply" onclick="reply()">
         </div>
     </div>  
-
+  -->
+  <ul id="notifications-list"></ul>
   </main>
   <div id="right-menu">
-    <h3>Trending:</h3>
-    <div class="post-container">
-      <div class="post">
-        <div class="post-header">
-        <img src="USERS/user_pfp(29).jpg" alt="Username">
-        <span>Oreo</span>
-        </div>
-        <div class="post-content">
-          <p>Stoopid hooman just got me the wrong food again...🙄🙄</p>
-        </div>
-        <div class="post-footer">
-          <div class="post-footer-left">
-          <img src="images/like.png" alt="Like" onclick="like()">
-          <img src="images/reply.png" alt="Reply" onclick="reply()">
-          <img src="images/share.png" alt="Share" onclick="share()">
-          <img src="images/bookmark.png" alt="Bookmark" onclick="bookmark()">
-          </div>
-        </div>
-      </div>
-    </div>
+    <h3>Fwindies:</h3>
+    
   </div>
 </div>
 <footer>
   <p>© 2023 Catbook. All rights reserved. ᕙ(^▿^-ᕙ)</p>
 </footer>
+<script type = " text/javascript" src = "notifications.js" ></script>
 </body>
 </html>

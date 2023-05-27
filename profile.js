@@ -76,15 +76,18 @@ function checkLoginStatus() {
     const sharedPostsContainer = document.getElementById('shared-posts');
     sharedPostsContainer.innerHTML = ''; // Clear previous content
 
-    sharedPostsArray.forEach((post) => {
-    console.log(sessionStorage);
-    const postElement = createPostElement(post);
-    sharedPostsContainer.appendChild(postElement);
-    });
+    for(let i = sharedPostsArray.length - 1 ;i>=0;i--)
+    {
+      console.log(sessionStorage);
+      const postElement = createPostElement(sharedPostsArray[i]);
+      sharedPostsContainer.appendChild(postElement);
+    };
   }
   
   
   function login() {
+    sessionStorage.setItem('notifications', []);
+    sessionStorage.setItem('friends', []);
     const photoInput = document.getElementById("photo");
     const photo = photoInput.files[0];
     const name = document.getElementById("name").value;
@@ -120,6 +123,8 @@ function checkLoginStatus() {
   }
   
   function logout() {
+    sessionStorage.setItem("friends", []);
+    sessionStorage.setItem("notifications",[]);
     sessionStorage.setItem('sharedPosts', []);
     localStorage.removeItem("loggedIn");
     localStorage.removeItem("photo");

@@ -39,7 +39,13 @@
 
  
 body {
-  background-color: #c4dbe4;
+    font-family: "Comic Sans MS", cursive;
+    font-weight: bold;
+    background-color: #c4dbe4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1{
@@ -194,7 +200,7 @@ a {
 }
 
 #toggle1:checked ~ .menu1 {
-  height: calc(100vh - 3em) ;
+  height: calc(75vh - 3em) ;
 }
 
 #loading-screen
@@ -215,7 +221,7 @@ a {
   margin: 0;
   display: -ms-grid;
   display: grid;
-  grid-template-rows: 1fr repeat(4, 0.5fr);
+  grid-template-rows: 1fr repeat(3, 0.5fr);
   grid-row-gap: 2em;
   padding: 0;
   list-style: none;
@@ -229,11 +235,11 @@ a {
 }
 
 .menu1 a:first-child {
-  margin-top: 40px;
+  margin-top: 0em;
 }
 
 .menu1 a:last-child {
-  margin-bottom: 40px;
+  margin-bottom: 0em;
 }
 
 .link1 {
@@ -291,15 +297,17 @@ a {
 }
 
 footer{
-  position:static;
   bottom: 0;
   background-color: #02173F;
   color: white;
   text-align: center;
   padding: 0.5em;
   margin-bottom: 0em;
-  /* always on bottom */
+    /* Stick the footer to the bottom */
+    position: relative;
 }
+  /* always on bottom */
+
 
 /* javascript stuff :D */
 .post-button {
@@ -323,6 +331,9 @@ footer{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
+}
+main{
+  flex: 1;
 }
 
 #post-popup .popup-content {
@@ -405,4 +416,9 @@ footer{
   font-size: 24px;
   color: #ef0303;
   cursor: pointer;
+}
+
+.friend-container img {
+  border-radius:50%; 
+  width:50px; 
 }
