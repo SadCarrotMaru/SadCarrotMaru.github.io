@@ -20,6 +20,7 @@ var postData = [];
 function createPostElement(post) {
   console.log(post);
   const postElement = document.createElement('div');
+  let nr_likes = Math.floor(Math.random() * 100) + 1;
   postElement.className = 'post-container';
   postElement.innerHTML = `
     <div class="post">
@@ -33,7 +34,7 @@ function createPostElement(post) {
       </div>
       <div class="post-footer">
         <div class="post-footer-left">
-          <span class="like-count"> 0 </span>
+          <span class="like-count"> ${nr_likes} </span>
           <img src="images/like.png" alt="Like" onclick="like()">
           <img src="images/reply.png" alt="Reply" onclick="reply()">
           <img src="images/share.png" alt="Share" ">
