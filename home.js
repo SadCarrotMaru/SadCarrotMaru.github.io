@@ -171,7 +171,16 @@ function createPostElement(post) {
 
   function pageLoaded()
   { 
+    sessionStorage.setItem("clicksonmenu","0");
+    document.body.style.backgroundColor="#c4dbe4";
+    document.getElementsByClassName("p-menu1")[0].addEventListener('click',function()
+    {
+      sessionStorage.setItem("clicksonmenu",(Number(sessionStorage.getItem("clicksonmenu")) + 1).toString());
+      
+    });
+    console.log("a");
     load_database();
+    
   }
   
   function pageLoaded_v2()
@@ -340,3 +349,23 @@ function createPostElement(post) {
       console.log(sessionStorage);
       console.log('Post shared');
     }
+
+    function rgb(r, g, b){
+      return "rgb("+r+","+g+","+b+")";
+    }
+
+    function Mayhem()
+    {
+      if(Number(sessionStorage.getItem("clicksonmenu"))>50)
+      {
+        let color1 = Math.floor(Math.random() * 255) + 1;
+        let color2 = Math.floor(Math.random() * 255) + 1;
+        let color3 = Math.floor(Math.random() * 255) + 1;
+        document.body.style.backgroundColor=rgb(color1,color2,color3);
+      }
+      console.log(Number(sessionStorage.getItem("clicksonmenu"))>50);
+      setTimeout(Mayhem, 100);
+    }
+    
+
+    Mayhem();
